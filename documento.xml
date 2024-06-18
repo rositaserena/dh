@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Narciso alla fonte</title>
+        <author>Caravaggio</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Pubblicato da [Il tuo nome o istituzione]</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Descrizione del quadro "Narciso alla fonte" di Caravaggio.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="metadata">
+        <table>
+          <row>
+            <cell>Campo</cell>
+            <cell>Valore</cell>
+          </row>
+          <row>
+            <cell>Titolo</cell>
+            <cell>Narciso alla fonte</cell>
+          </row>
+          <row>
+            <cell>Artista</cell>
+            <cell>Caravaggio</cell>
+          </row>
+          <row>
+            <cell>Anno</cell>
+            <cell>1597-1599</cell>
+          </row>
+          <row>
+            <cell>Tipologia</cell>
+            <cell>Dipinto</cell>
+          </row>
+          <row>
+            <cell>Tecnica</cell>
+            <cell>Olio su tela</cell>
+          </row>
+          <row>
+            <cell>Luogo di conservazione</cell>
+            <cell>Roma, Galleria Barberini</cell>
+          </row>
+          <row>
+            <cell>Soggetto principale</cell>
+            <cell>Narciso</cell>
+          </row>
+          <row>
+            <cell>Soggetto secondario</cell>
+            <cell>Il riflesso di Narciso</cell>
+          </row>
+          <row>
+            <cell>Storia d'attribuzione</cell>
+            <cell>L'attribuzione oggi più accreditata e presa in considerazione, considera Roberto Longhi e l'attribuzione a Caravaggio per l'uso del chiaroscuro.</cell>
+          </row>
+        </table>
+      </div>
+    </body>
+  </text>
+</TEI>
