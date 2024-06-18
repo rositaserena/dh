@@ -1,31 +1,51 @@
-body.intropagina {
-  background-image: url("./immagini/sfondointro.jpg");
-  background-size: cover;/*copre l'intero viwport*/
-  background-position: center;/*centra l'immagine orizzontalmente*/
-  background-repeat: no-repeat;/*Impedisce la ripetizione dell'immagine*/
-  margin: 0; /* Rimuove il margine predefinito del body */
-  padding: 0; /* Rimuove il padding predefinito del body */
- /* Imposta un colore di sfondo predefinito */
-  font-family: garamond; /* Imposta il font predefinito */
-  .rosita-classe {
-  width: 100%; /* Imposta la larghezza dell'immagine al 100% del suo contenitore */
-   height:auto;
+
+#hero { /*img backgound*/
+  width: 100%;
+  height: 100vh;
+  background: url("../immagini/sfondointro.jpg") top center;
+  background-size: cover;
+  position: relative;
 }
-     
+
+
+#hero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
 }
+
+#hero .container {
+  position: relative;
+  padding-top: 74px;
+  text-align: center;
+}
+
+#hero h1 {
+  margin: 0;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 65px;
+  color: #fff;
+  font-family: "Junge", cursive;
+}
+
 .btn-intro {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    right:40%;
-    transform: translate(-50%, -50%);
-    background-color: #999; /* Imposta il colore di riempimento del pulsante */
-    border: 2px solid #000; /* Aggiungi un bordo di 2px di spessore nero */
-    padding: 10px 20px; /* Aggiungi del padding per rendere il pulsante più grande */
-    color: ; /* Imposta il colore del testo */
-    text-align: center;
-    font-family: garamond;
+  position: fixed;
+  bottom: 80px; /* Posiziona il pulsante a 20px dal fondo della pagina */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000000; /* Imposta il colore di riempimento del pulsante */
+  border: 2px solid #000; /* Aggiungi un bordo di 2px di spessore nero */
+  padding: 10px 20px; /* Aggiungi del padding per rendere il pulsante più grande */
+  color: #fff; /* Imposta il colore del testo */
+  text-align: center;
+  font-family: garamond;
 }
+
 /* colore sfondo pagina (body) */
 .custom-background {
   background-color: rgba(0, 102, 0, 0.3); /* Colore di sfondo personalizzato */
@@ -160,10 +180,10 @@ text-align: center; /* Centra il contenuto orizzontalmente */
   background-color: #555;
   color:white;
   padding:12px 24px;
-border:2px solid #000;
-cursor:pointer;
-border-radius:5px;
-text-align:center;
+  border:2px solid #000;
+  cursor:pointer;
+  border-radius:5px;  
+  text-align:center;
 }
 
 /* Stili per il container delle cards */
@@ -185,7 +205,7 @@ text-align:center;
    text-align: center;
    margin-bottom: 20px;
     position:relative;
-    top: 50%; /* Posiziona il testo sopra le cards */
+    top: 50px; /* Posiziona il testo sopra le cards */
     left: 50%; /* Allinea il testo al centro */
     transform: translateX(-50%); /* Centra il testo orizzontalmente */
 }
@@ -203,7 +223,6 @@ text-align:center;
 .card {
   /*Aggiungi spazio tra le cards*/
   margin:15px;
-background-color:#ffffcc;
 flex:0 1 calc(33.33% - 30px); /* Imposta la larghezza di ogni card in modo che occupi un terzo del container */
 flex-direction: column;
   position: relative;
@@ -237,7 +256,7 @@ flex-direction: column;
 .card-container:hover .overlay {
   opacity: 1;
 }
-.btn-custom:{
+.btn-custom: {
 transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -359,3 +378,4 @@ text-align:center;
 #modal1.modal {
   background-color: rgba(255, 255, 255, 0.8); /* Cambia il colore di sfondo della modal */
 }
+  
