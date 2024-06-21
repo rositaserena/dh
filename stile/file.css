@@ -1,0 +1,621 @@
+#hero {
+  /*img backgound*/
+  width: 100%;
+  height: 100vh;
+  background: url("../immagini/sfondointro.jpg") 30% 40%;
+  background-size: cover;
+  position: relative;
+}
+
+
+#hero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero .container {
+  position: relative;
+  padding-top: 74px;
+  text-align: center;
+}
+
+#hero h1 {
+  margin: 0;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 65px;
+  color: #fff;
+  font-family: "garamond",serif; 
+}
+
+.btn-intro {
+  position: fixed;
+  bottom: 80px; /* Posiziona il pulsante a 80px dal fondo della pagina */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000000;
+  /* Imposta il colore di riempimento del pulsante */
+  border: 2px solid #000;
+  /* Aggiungi un bordo di 2px di spessore nero */
+  padding: 10px 20px;
+  /* Aggiungi del padding per rendere il pulsante più grande */
+  color: #fff;
+  /* Imposta il colore del testo */
+  text-align: center;
+  font-family: garamond;
+}
+
+/* colore sfondo pagina (body) */
+.custom-background {
+  background-color: rgba(0, 102, 0, 0.3);
+  /* Colore di sfondo personalizzato */
+}
+
+/*colore navbar*/
+.custom-bg-green {
+  background-color: #001a00
+    /* colore verde specifico */
+}
+
+.container-fluid {
+  font-family: garamond;
+}
+
+#header {
+  padding: 15px 15px 200px;
+  text-align: center;
+  background-image: url(../immagini/sfondointro.jpg);
+  background-size: cover;
+  background-position: center;
+  /* Posiziona l'immagine al centro */
+  font-size: 30px;
+  font-weight: bold;
+  width: 100%;
+  height: 300px;
+  top: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: rgba(0, 51, 0, 0.2); /* Cambia il colore al passaggio del mouse o focus */
+    color: white; /* Cambia il colore del testo */
+}
+
+/* Stili per la barra di ricerca */
+.d-flex input[type="search"] {
+  font-family: garamond;
+  /* Stili per l'input di ricerca */
+}
+
+.d-flex button[type="submit"] {
+  background-color: #ffffe6;
+  /* Stili per il pulsante di ricerca */
+}
+
+/*stile per l'avatar*/
+.avatar {
+  display: block;
+  /* Assicura che l'immagine sia un blocco */
+  margin: 20px auto 0;
+  /* 20px di margine sopra, automatico per i lati, nessun margine sotto */
+  /* Imposta i margini automaticamente per centrare l'immagine */
+  width: 70px;
+  height: auto;
+  border-radius: 50%;
+  padding-top: 10px;
+}
+
+.panel {
+  background-color: #ffffe6;
+  /* Colore di sfondo del pannello */
+  border: 1px solid rgb(0, 51, 0);
+  /* Bordo del pannello */
+  padding: 10px;
+  /* Spaziatura interna del pannello */
+  margin-top: 20px;
+  /* Margine superiore del pannello */
+  font-family: garamond;
+  text-align: center;
+}
+
+/*Stili per il button della sidebar sotto il panel*/
+.button {
+  background-color: #ffffe6;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 50px 40px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: garamond;
+}
+
+.button1 {
+  background-color: #ffffe6;
+  color: black;
+  border: 2px solid #000;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button1:hover {
+  background-color: rgb(0, 51, 0);
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+  /* Centra il contenuto orizzontalmente */
+  font-family: garamond;
+}
+
+/*opacità container della section principale della home*/
+.container-opacity {
+  background-color: rgba(0, 51, 0, 0.2);
+  /* Colore opacizzato */
+  padding: 20px;
+  /* Spaziatura interna */
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  /* Centra orizzontalmente */
+  align-items: center;
+  /* Centra verticalmente */
+  height: 100vh;
+  /* Altezza della finestra del browser */
+}
+
+.container2 {
+  background-color: #ffffe6;
+  position: relative;
+  width: 100%;
+  /* Larghezza del 80% della larghezza del contenitore genitore */
+  max-width: 500px;
+  /* Larghezza massima di 400 pixel */
+  height: 500px;
+  /* Altezza di 200 pixel */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  /* Padding interno di 20 pixel */
+  box-sizing: border-box;
+  /* Include il padding nella larghezza e altezza */
+  text-align: center;
+  /* Centra il contenuto orizzontalmente */
+  font-family: garamond;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 300%;
+  object-fit: cover;
+  /* Mantieni le proporzioni dell'immagine e riempila completamente */
+}
+
+.btn-custom2 {
+  background-color: #555;
+  color: white;
+  padding: 12px 24px;
+  border: 2px solid #000;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Stili per il container delle cards */
+.card-container {
+  padding-top: 30px;
+  /* Aggiungi spazio all'interno del container delle cards sopra */
+  box-sizing: border-box;
+  /* Imposta il box-sizing per includere il padding nelle dimensioni totali */
+  flex-direction: column;
+  /* Allinea le cards in verticale */
+  background-color: #ffffe6;
+  margin-bottom: 50px;
+  /* Aggiungi spazio tra le cards e il footer */
+}
+
+.card-container.row {
+  display: flex;
+  /* Imposta il display a flex per allineare le cards in orizzontale */
+  flex-wrap: wrap;
+  /* Consente il wrapping delle cards quando lo spazio è insufficiente */
+  justify-content: space-around;
+  /* Distribuisci uniformemente le cards */
+}
+
+/* Stili per il testo sopra le cards */
+.text-above-cards {
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  top: 50px;
+  /* Posiziona il testo sopra le cards */
+  left: 50%;
+  /* Allinea il testo al centro */
+  transform: translateX(-50%);
+  /* Centra il testo orizzontalmente */
+}
+
+.text-above-cards h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.text-above-cards p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+/* Stili per le cards */
+.card {
+  /*Aggiungi spazio tra le cards*/
+  margin: 15px;
+  flex: 0 1 calc(33.33% - 30px);
+  /* Imposta la larghezza di ogni card in modo che occupi un terzo del container */
+  flex-direction: column;
+  position: relative;
+}
+
+.card-body {
+  font-family: garamond;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+
+}
+
+.card-img-top {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 51, 0, 0.2);
+}
+
+.card-container:hover .overlay {
+  opacity: 1;
+}
+
+/*Impostazioni per il contenitore delle cards*/
+.container-tutorial-bootstrap {
+  position: static;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  /*Centra il contenitore orizzontalmente*/
+}
+
+/*stili per le immagini all'interno delle cards*/
+.container img {
+  width: 100%;
+  height: 100%;
+}
+
+/*stili per i pulsanti all'interno del container*/
+.btn-custom {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: 2px solid #000;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* quarta pagina */
+h1:hover,
+a:hover {
+  background-color: rgba(0, 51, 0, 0.2);
+}
+
+/* Stile per il corpo */
+.body {
+  font-family: "garamond", serif;
+}
+
+.navbar {
+  margin-bottom: 30px;
+  /* Imposta il margine sotto la navbar */
+}
+
+#myContainer.col-12.container-opacity {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-top: 20px !important;
+  margin-top: 100px;
+  /* Aggiungi un margine superiore per aumentare lo spazio sopra */
+  margin-bottom: 50px;
+  /* Aggiungi un margine inferiore per mantenere simmetria, se necessario */
+  box-sizing: border-box;
+  /* Include il padding nella larghezza e altezza */
+}
+
+.img-galleria {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+
+.img-container {
+  position: relative;
+  display: inline-block;
+}
+
+.badge {
+  position: absolute;
+  position: absolute;
+  top: -22px;
+  /* Distanza dal bordo superiore */
+  right: -2px;
+  /* Distanza dal bordo destro */
+  background-color: #001a00;
+  /* Esempio di colore di sfondo */
+  color: white;
+  /* Colore del testo */
+  padding: 5px 10px;
+  /* Padding per il contenuto del badge */
+  border-radius: 5px;
+  /* Angoli arrotondati */
+}
+
+.col-img {
+  margin-bottom: 25px;
+  /* Aggiunge uno spazio tra le colonne delle immagini */
+}
+
+.modal-content-custom {
+  background-color: #ffffe6;
+  ;
+  color: #003300;
+}
+
+.modal-body {
+  font-family: garamond;
+
+}
+
+.container4 {
+  background-color: #ffffe6;
+  position: relative;
+  width: 90%;
+  /* Larghezza del 80% della larghezza del contenitore genitore */
+  max-width: 1300px;
+  /* Larghezza massima di 400 pixel */
+  height: auto;
+  /* Altezza di 200 pixel */
+  margin: 50px auto;
+  padding: 5px;
+  /* Padding interno di 20 pixel */
+  box-sizing: border-box;
+  /* Include il padding nella larghezza e altezza */
+  text-align: center;
+  /* Centra il contenuto orizzontalmente */
+  font-family: garamond;
+  overflow: hidden;
+}
+
+.container4 h1 {
+  margin-top: 0;
+  /* Rimuove il margine superiore predefinito */
+  margin-bottom: 20px;
+  /* Aggiunge spazio sotto il titolo */
+}
+
+.row-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.row-custom .col {
+  text-align: center;
+  margin: 10px;
+}
+
+.row-custom h4,
+.row-custom h5 {
+  margin: 0;
+  /* Rimuove il margine predefinito */
+  padding: 10px;
+  /* Rimuove il padding predefinito */
+
+  border: 2px solid #001a00;
+  ;
+  /* Definisci un bordo trasparente iniziale */
+  display: inline-block;
+  /* Assicurati che le parole siano visualizzate su una singola riga */
+  cursor: pointer;
+  /* Cambia il cursore al passaggio del mouse */
+}
+
+.row-custom h4:hover,
+.row-custom h5:hover {
+  background-color: rgba(0, 51, 0, 0.5);
+  /* Cambia il colore di sfondo al passaggio del mouse */
+  border-color: #001a00;
+  /* Cambia il colore del bordo al passaggio del mouse */
+}
+
+.pagination-container {
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: white;
+  display: inline-block;
+  width: 30px;
+  /* Larghezza dei link */
+  padding: 8px 0;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #001a00;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: rgba(0, 51, 0, 0.5);
+}
+
+.custom-panel {
+  background-color: #ffffe6;
+  /* Colore di sfondo del pannello */
+  border: 1px solid rgb(0, 51, 0);
+  /* Bordo del pannello */
+  padding: 10px;
+  /* Spaziatura interna del pannello */
+  font-family: garamond;
+  text-align: center;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+#custom-panel1 {
+  margin-top: 80px;
+  margin-bottom: 90px;
+  /* Posiziona il primo pannello in alto */
+}
+
+#custom-panel2 {
+  margin-top: 90px;
+  margin-bottom: 90px;
+  /* Posiziona il secondo pannello al centro */
+  display: flex;
+  flex-wrap: wrap;
+  /* Consente ai bottoni di andare su più righe se necessario */
+  gap: 15px;
+  /* Spazio tra i bottoni */
+  font-family: garamond;
+}
+
+.custom-panel .btn-secondary {
+  background-color: #001a00;
+  /* Colore di sfondo del bottone */
+  color: white;
+  /* Colore del testo del bottone */
+  border: none;
+  /* Rimuovi bordo */
+  font-family: garamond;
+}
+
+.custom-panel .btn-secondary:hover {
+  background-color: #001a00;
+  /* Colore di sfondo del bottone al passaggio del mouse */
+  color: white;
+  /* Colore del testo al passaggio del mouse */
+}
+
+.custom-panel .dropdown-menu .dropdown-item {
+  background-color: rgba(0, 51, 0, 0.5);
+  /* Colore di sfondo delle voci del menu a tendina */
+  color: white;
+  /* Colore del testo delle voci del menu a tendina */
+}
+
+.custom-panel .dropdown-menu .dropdown-item:hover {
+  background-color: rgba(0, 51, 0, 0.7);
+  /* Colore di sfondo delle voci del menu a tendina al passaggio del mouse */
+  color: black;
+  /* Colore del testo al passaggio del mouse */
+  font-family: garamond;
+}
+
+#custom-panel3 {
+  margin-top: 10px;
+  /* Posiziona il terzo pannello in basso */
+  margin-bottom: 10px;
+}
+
+    .footer {
+  margin-top: 50px;
+  color: #ffffff; 
+  font-family:garamond;
+  text-align: center;
+  padding-bottom: 20px;
+    padding-top: 20px; 
+}
+/*scheda-item*/
+.body {
+      background-color:rgba(0, 51, 0, 0.2);/* Stile per hover su h1 e a */
+        h1:hover, a:hover 
+            background-color: rgba(0, 51, 0, 0.2);
+        }
+
+        /* Stile per la barra di navigazione */
+        .navbar {
+            margin-bottom: 30px;
+        }
+        .card {
+    background-color: #ffffe6;; /* Colore di sfondo delle card */
+    padding: 15px; /* Spaziatura interna delle card */
+    margin-bottom: 15px; /* Margine inferiore per separare le card */
+  }
+   .yellow-bg-table {
+      background-color: #ffffe6;
+    }
+    .col.text-center {
+    display: flex;
+    justify-content: center; /* Allinea le immagini orizzontalmente al centro */
+    align-items: center; /* Allinea le immagini verticalmente al centro */
+    height: 100%; /* Altezza pari all'altezza del contenitore genitore */
+}
+    .avatar-image {
+    width: 100px; /* Imposta larghezza fissa */
+    height: 100px; /* Imposta altezza fissa */
+    object-fit: cover; /* Assicura che l'immagine riempia l'area senza distorsioni */
+    margin: 10px; /* Spazio tra le immagini avatar */
+}
+.avatar-container:hover .avatar-name {
+    display: block; /* Mostra il nome dell'avatar al passaggio del mouse */
+}
+.avatar-container .avatar-name {
+    display: none; /* Nasconde il nome dell'avatar di default */
+}
+
+.avatar-container:hover .avatar-name {
+    display: block; /* Mostra il nome dell'avatar al passaggio del mouse */
+    }
+.avatar-container:{  text-align: center; /* Centra il testo sotto gli avatar */
+            margin-bottom: 20px; /* Spazio inferiore tra gli avatar */
+          }

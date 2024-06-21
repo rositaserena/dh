@@ -1,65 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
-        <title>Narciso alla fonte</title>
-        <author>Caravaggio</author>
+        <title>descrizione e storia d'attribuzione</title>
+        <author>Rosita Serena</author>
       </titleStmt>
       <publicationStmt>
-        <p>Pubblicato da [Il tuo nome o istituzione]</p>
+        <distibutor>
+          <name>L'intervisualità dei mito di Narciso</name>
+          <address>
+            <url>https://rositaserena.github.io/dh/</url>
+          </address>
+        </distibutor>
       </publicationStmt>
       <sourceDesc>
-        <p>Descrizione del quadro "Narciso alla fonte" di Caravaggio.</p>
+        <bibl>
+          <author>
+    <name type="personal" key="Grego">Francesca Grego</name>
+  </author>
+  <title level="a">Caravaggio e l'enigma di Narciso</title>
+  <title level="j">Arte.it</title>
+  <date when="2024">2024</date>
+  <ptr target="https://www.arte.it/notizie/roma/caravaggio-e-l-enigma-di-narciso-17117" type="url">Accessed 20 June 2024</ptr>
+        </bibl>
       </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div type="metadata">
-        <table>
-          <row>
-            <cell>Campo</cell>
-            <cell>Valore</cell>
-          </row>
-          <row>
-            <cell>Titolo</cell>
-            <cell>Narciso alla fonte</cell>
-          </row>
-          <row>
-            <cell>Artista</cell>
-            <cell>Caravaggio</cell>
-          </row>
-          <row>
-            <cell>Anno</cell>
-            <cell>1597-1599</cell>
-          </row>
-          <row>
-            <cell>Tipologia</cell>
-            <cell>Dipinto</cell>
-          </row>
-          <row>
-            <cell>Tecnica</cell>
-            <cell>Olio su tela</cell>
-          </row>
-          <row>
-            <cell>Luogo di conservazione</cell>
-            <cell>Roma, Galleria Barberini</cell>
-          </row>
-          <row>
-            <cell>Soggetto principale</cell>
-            <cell>Narciso</cell>
-          </row>
-          <row>
-            <cell>Soggetto secondario</cell>
-            <cell>Il riflesso di Narciso</cell>
-          </row>
-          <row>
-            <cell>Storia d'attribuzione</cell>
-            <cell>L'attribuzione oggi più accreditata e presa in considerazione, considera Roberto Longhi e l'attribuzione a Caravaggio per l'uso del chiaroscuro.</cell>
-          </row>
-        </table>
-      </div>
-    </body>
-  </text>
+      <text xml:lang="ita">
+    <head>
+  <figDesc>
+      <p>
+       Il quadro posto qui di fianco, nell'ambito dell'iconografia legata a Narciso, costituisce una svolta, dal momento che è un quadro che non presenta il canonico paesaggio che già all'interno del testo ovidiano aveva una certa importanza tanto che la tradizione iconografica s'era affannata a ricostruirlo minuziosamente.Ha la peculiarità di mostrare il giovane solo,in abiti seicenteschi, in un'inconsueta penombra,inginocchiato di fronte allo specchio d'acqua,<q who="Ovidio" xml:lang="lat"> la fons inlimis</q>, contempla la propria immagine,cancellando attorno a lui: il paesaggio, Eco, i fiori del narciso, i cervi, il cane o l'arco.La peculiarità del dipinto consiste in una costruzione "a carta da gioco": sono infatti due le immagini del ragazzo, una sull'altra tanto che si segnale per l'intima affinità allo spitito della narrazione.
+       
+        </p>
+       <p>
+        Il critico d'arte<hi> Roberto Longhi</hi> ha proposto l'attribuzione a Caravvgio  per l'uso del chiaroscuro, il trattamento della luce, infatti anche secondo <hi> Rossella Vodret </hi>, <hi>Caravaggio</hi> dipinse il Narciso prendendo se stesso come modello e aiutandosi con due specchi sapientemente posizionati.Il passato della tela appare avvolto dal mistero più fitto. L’unico documento che possa riguardarla è una licenza d’esportazione del 1645, che autorizza il trasferimento da Roma a Savona di un Narciso del Caravaggio delle stesse dimensioni dell’opera di Palazzo Barberini. Non sono mancate ipotesi alternative: come i  nomi di <hi>Manfredi (Panofsky 1949, Baumgart 1955) </hi> e <hi>Gentileschi (Bissel 1981, Moir 1967)</hi>.
+     </p>
+   
+  </figDesc>
+</head>
+    </text>   
+</fileDesc>
+</teiHeader>
 </TEI>
