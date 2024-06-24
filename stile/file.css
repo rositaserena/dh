@@ -335,6 +335,14 @@ dropdown-item:hover,
   border-radius: 5px;
   text-align: center;
 }
+.footer {
+  margin-top: 50px;
+  color: #ffffff; 
+  font-family:garamond;
+  text-align: center;
+  padding-bottom: 20px;
+    padding-top: 20px; 
+}
 
 /* quarta pagina */
 h1:hover,
