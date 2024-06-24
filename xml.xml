@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
-          xmlns:dcterms="http://purl.org/dc/terms/">
-    <dc:title>L'intervisualità del mito di Narciso</dc:title>
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd">
+    <dc:title>Narciso alla fonte</dc:title>
     <dc:creator>Rosita Serena</dc:creator>
-    <dc:subject>L'intervisualità di Narciso</dc:subject>
-    <dc:description>Il sito vuole mostrare come sia cambiata l'iconografia legata a Narciso nel corso dei secoli</dc:description>
+    <dc:subject>Narciso</dc:subject>
+    <dc:creator>Caravaggio</dc:creator>
+    <dc:creator xsi:type="dcterms:ULAN">500115312</dc:creator>
+    <dc:description>L'item in questione è un dipinto attribuito a Caravaggio secodno la critica moderna</dc:description>
     <dc:publisher>Inserisci un riferimento all'ente che si occupa della pubblicazione del tuo sito</dc:publisher>
     <dc:contributor>Autore di contributo subordinato</dc:contributor>
     <dc:date>2024-06</dc:date>
@@ -13,4 +17,6 @@
     <dc:identifier>https://github.com/rositaserena/dh/blob/main/scheda-item.html</dc:identifier>
     <dc:source>http://www.iconos.it/le-metamorfosi-di-ovidio/libro-iii/narciso/immagini/</dc:source>
     <dc:language>it</dc:language>
+    <dc:coverage xsi:type="dcterms:geonames">https://www.geonames.org/6697901/gam-galleria-d-arte-moderna.html
+    </dc:coverage>
 </metadata>
